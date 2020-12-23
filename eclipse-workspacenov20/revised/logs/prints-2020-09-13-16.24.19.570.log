@@ -1,0 +1,6 @@
+16:23:21.386 [AsyncHttpClient-3-3] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+16:23:33.744 [main] INFO  resources.Init_Driver - Driver initialised
+16:23:38.387 [main] INFO  resources.Init_Driver - URL fetched from property
+16:23:43.983 [main] INFO  resources.Init_Driver - Fetching qa click academy site
+16:23:54.890 [main] INFO  resources.Init_Driver - Closing driver
+16:24:09.981 [main] INFO  resources.Init_Driver - Driver initialised

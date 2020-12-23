@@ -1,0 +1,6 @@
+15:33:17.294 [TestNG] INFO  resources.Init_Driver - Closing driver
+15:05:11.753 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+15:05:11.807 [TestNG] INFO  resources.Init_Driver - Fetching user details 2
+15:05:11.807 [TestNG] INFO  resources.Init_Driver - Fetching user details 3
+15:06:56.907 [TestNG] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+15:06:56.941 [TestNG] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple

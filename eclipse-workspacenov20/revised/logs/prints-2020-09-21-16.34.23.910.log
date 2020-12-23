@@ -1,0 +1,5 @@
+16:34:15.200 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+16:34:15.205 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+16:34:15.207 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+16:34:22.810 [TestNG] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x632d01bc93dd5d80
+16:34:23.907 [TestNG] INFO  resources.Init_Driver - Fetching user details 1

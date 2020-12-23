@@ -1,0 +1,7 @@
+11:59:02.607 [main] INFO  resources.Init_Driver - Opening Login page
+11:59:12.685 [main] INFO  resources.Init_Driver - Closing driver
+12:07:11.396 [main] INFO  resources.Init_Driver - URL fetched from property
+12:07:11.447 [main] INFO  resources.Init_Driver - Fetching user details 1
+12:07:11.447 [main] INFO  resources.Init_Driver - Fetching user details 2
+12:07:11.448 [main] INFO  resources.Init_Driver - Fetching user details 3
+12:07:11.487 [main] INFO  resources.Init_Driver - Executing TEST : HomePage

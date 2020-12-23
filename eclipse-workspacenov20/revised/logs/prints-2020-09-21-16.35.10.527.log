@@ -1,0 +1,7 @@
+16:35:00.788 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+16:35:00.830 [TestNG] INFO  resources.Init_Driver - Executing TEST : HomePage
+16:35:01.528 [TestNG] INFO  resources.Init_Driver - Closing driver
+16:35:01.979 [TestNG] INFO  resources.Init_Driver - Opening Login page
+16:35:06.454 [TestNG] INFO  resources.Init_Driver - Closing driver
+16:35:10.286 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+16:35:10.286 [TestNG] INFO  resources.Init_Driver - Executing TEST : HomePage

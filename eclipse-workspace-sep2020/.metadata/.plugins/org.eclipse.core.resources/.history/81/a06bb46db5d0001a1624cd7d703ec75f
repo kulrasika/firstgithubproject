@@ -1,0 +1,16 @@
+package mavenPone.sub_two;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class InitialDemo {
+	@Test
+	public void FirstClass()
+	{
+		WebDriver driver = new ChromeDriver();
+		System.setProperty("webriver.chrome.driver","C://ChromeDriver/chromedriver.exe");
+		driver.get("www.google.com");
+		System.out.println(driver.getCurrentUrl());
+	}
+
+}

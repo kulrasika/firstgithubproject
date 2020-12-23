@@ -1,0 +1,7 @@
+08:48:29.974 [TestNG] INFO  resources.Init_Driver - Executing TEST : NavigationBar
+08:48:38.662 [TestNG] INFO  resources.Init_Driver - Closing driver
+08:48:38.780 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+08:48:39.007 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+08:48:39.053 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+08:48:39.053 [TestNG] INFO  resources.Init_Driver - Fetching user details 2
+08:48:39.054 [TestNG] INFO  resources.Init_Driver - Fetching user details 3

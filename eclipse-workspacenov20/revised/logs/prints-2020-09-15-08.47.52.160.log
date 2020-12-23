@@ -1,0 +1,5 @@
+08:47:52.129 [TestNG] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+08:47:52.136 [TestNG] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+08:47:52.136 [TestNG] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+08:47:52.159 [TestNG] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+08:47:52.159 [TestNG] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0

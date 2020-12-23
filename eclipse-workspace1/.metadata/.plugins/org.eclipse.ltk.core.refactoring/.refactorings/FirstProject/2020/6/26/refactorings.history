@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;FluentWait.java&apos; to &apos;FluentWaitEg.java&apos;&#x0D;&#x0A;- Original project: &apos;FirstProject&apos;&#x0D;&#x0A;- Original element: &apos;FluentWait.java&apos;&#x0D;&#x0A;- Renamed element: &apos;FluentWaitEg.java&apos;" description="Rename compilation unit &apos;FluentWait.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{FluentWait.java" name="FluentWaitEg.java" references="false" stamp="1592824074940" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+15:24:52.874 [TestNG] INFO  resources.Init_Driver - Closing driver
+15:30:00.176 [TestNG] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+15:30:00.203 [TestNG] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+15:30:00.204 [TestNG] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+15:30:00.217 [TestNG] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@67144794

@@ -1,0 +1,49 @@
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GreenKart {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();		
+		
+		driver.get("https://www.rahulshettyacademy.com/seleniumPractise/#/");
+		
+		List <WebElement> products = driver.findElements(By.xpath("//h4[@class = 'product-name']"));
+		
+		String[] itemsNeeded = {"Cucumber","Cauliflower","Broccoli"};
+		Thread.sleep(5000);
+		int i ;
+		
+		for(i=0;i<products.size();i++)
+		{
+			String[] name = products.get(i).getText().split("-"); 
+			String formattedname = name[0].trim();
+			List<String> itemsNeededList = Arrays.asList(itemsNeeded);
+			int j = 0;		
+			if(itemsNeededList.contains(formattedname))
+				{
+					driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
+					j++;
+				}
+			if (j==itemsNeededList.size())	
+			{
+				System.out.println("Breaking loop as all items have been fulfilled!!");
+				break;
+			}
+		}
+		
+		
+		
+				
+	}
+
+}

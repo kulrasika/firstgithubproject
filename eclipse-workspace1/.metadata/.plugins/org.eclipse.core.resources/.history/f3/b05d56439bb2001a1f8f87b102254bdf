@@ -1,0 +1,81 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Locator_Elements {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();		
+		
+		
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		
+		
+				Select currency = new Select(driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency")));
+		currency.selectByVisibleText("AED");
+		currency.selectByValue("USD");
+		currency.selectByIndex(1);
+		
+		WebElement fromCity = 	driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT"));
+		fromCity.click();
+		fromCity.clear();
+		Thread.sleep(2000);
+		fromCity.sendKeys("MU");
+		driver.findElement(By.xpath("//li/a[@value='BOM']")).click();
+		driver.findElement(By.xpath("//li/a[@value='BOM']")).click();
+		//Actions a = new Actions(driver);
+		//a.doubleClick(driver.findElement(By.xpath("//li/a[@value='BOM']")));
+		
+		WebElement toCity = driver.findElement(By.id("ctl00_mainContent_ddl_destinationStation1_CTXT"));
+		toCity.click();
+		toCity.clear();
+		Thread.sleep(2000);
+		toCity.sendKeys("TI");
+		//driver.findElement(By.xpath("//div[@id ='ctl00_mainContent_ddl_destinationStation1_CTNR'] //li/a[@value='TIR']")).click();
+		//driver.findElement(By.xpath("//div[@id ='ctl00_mainContent_ddl_destinationStation1_CTNR'] //li/a[@value='TIR']")).click();
+		
+		driver.findElement(By.xpath("(//li/a[@value='TIR'])[2]")).click();
+		driver.findElement(By.xpath("(//li/a[@value='TIR'])[2]")).click();
+		
+		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
+		
+		
+		driver.findElement(By.xpath("//*[@id ='ctl00_mainContent_view_date2']")).click();
+		driver.findElement(By.xpath("//td[@data-month='5']/a[text()='23']")).click();
+		//(//*[@id="ctl00_mainContent_view_date2"] //td[@data-month='5']/a[text()="23"] )
+		
+		driver.findElement(By.id("divpaxinfo")).click();
+		
+		int i=0;
+				
+		while(i!=4)
+		{
+			driver.findElement(By.id("hrefIncAdt")).click();
+			i++;
+		}	
+			
+		
+		driver.findElement(By.id("hrefIncChd")).click();
+					
+		String adultcount = driver.findElement(By.id("spanAudlt")).getText();
+		String childcount = driver.findElement(By.id("spanChild")).getText();
+		
+		if(adultcount.contentEquals("4"))
+		{System.out.println("Correct Adult count");}
+		
+		Select currency_new = new Select(driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency")));
+		currency_new.selectByValue("INR");
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+22:49:50.842 [main] FATAL beta.Second - Fatal error
+22:50:27.464 [main] DEBUG alpha.First - Debug LOgs printing
+22:50:27.472 [main] ERROR alpha.First - Error message now printing
+22:50:27.472 [main] INFO  alpha.First - Information message now printing
+22:50:27.472 [main] FATAL alpha.First - Fatal error
+22:51:03.141 [main] DEBUG alpha.First - Debug LOgs printing
+22:51:03.148 [main] ERROR alpha.First - Error message now printing
+22:51:03.148 [main] INFO  alpha.First - Information message now printing

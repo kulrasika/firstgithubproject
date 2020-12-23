@@ -1,0 +1,7 @@
+10:32:26.941 [TestNG] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+10:32:47.816 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+10:32:47.816 [TestNG] INFO  resources.Init_Driver - Fetching user details 2
+10:32:47.816 [TestNG] INFO  resources.Init_Driver - Fetching user details 3
+10:36:09.535 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+10:36:09.877 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+10:36:09.877 [TestNG] INFO  resources.Init_Driver - Fetching user details 2

@@ -1,0 +1,4 @@
+15:30:00.426 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+15:30:00.432 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+15:30:00.432 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+15:30:00.432 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available

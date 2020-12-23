@@ -1,0 +1,7 @@
+16:22:58.106 [main] INFO  resources.Init_Driver - URL fetched from property
+16:22:58.273 [main] INFO  resources.Init_Driver - Fetching user details 1
+16:22:58.274 [main] INFO  resources.Init_Driver - Fetching user details 2
+16:22:58.274 [main] INFO  resources.Init_Driver - Fetching user details 3
+16:23:10.128 [main] INFO  resources.Init_Driver - Opening Login page
+16:23:12.715 [main] INFO  resources.Init_Driver - Entering Login details
+16:23:20.588 [main] INFO  resources.Init_Driver - Closing driver

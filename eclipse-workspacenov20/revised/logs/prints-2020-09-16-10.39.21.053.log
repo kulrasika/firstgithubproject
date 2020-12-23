@@ -1,0 +1,7 @@
+10:39:15.051 [TestNG] INFO  resources.Init_Driver - Fetching user details 2
+10:39:15.113 [TestNG] INFO  resources.Init_Driver - Fetching user details 3
+10:39:15.227 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+10:39:15.377 [TestNG] INFO  resources.Init_Driver - Executing TEST : NavigationBar
+10:39:15.454 [TestNG] INFO  resources.Init_Driver - Executing TEST : HomePage
+10:39:19.646 [TestNG] INFO  resources.Init_Driver - Executing TEST : FeaturedCourseTitle
+10:39:19.646 [TestNG] INFO  resources.Init_Driver - Created landing page object

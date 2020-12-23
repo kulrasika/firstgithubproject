@@ -1,0 +1,10 @@
+16:38:28.819 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+16:38:28.831 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+16:38:28.831 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+16:38:28.831 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+16:38:33.339 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x331e1ba5d8e0a976
+16:38:33.455 [main] INFO  resources.Init_Driver - Driver initialised
+16:38:42.257 [main] INFO  resources.Init_Driver - URL fetched from property
+16:38:42.293 [main] INFO  resources.Init_Driver - Fetching user details 1
+16:38:42.306 [main] INFO  resources.Init_Driver - Fetching user details 2
+16:38:42.306 [main] INFO  resources.Init_Driver - Fetching user details 3

@@ -1,0 +1,7 @@
+11:47:47.114 [main] INFO  resources.Init_Driver - Driver initialised
+11:47:51.058 [main] INFO  resources.Init_Driver - URL fetched from property
+11:47:56.617 [main] INFO  resources.Init_Driver - Driver initialised
+11:48:03.825 [main] INFO  resources.Init_Driver - URL fetched from property
+11:48:12.983 [main] INFO  resources.Init_Driver - Driver initialised
+11:48:28.975 [main] INFO  resources.Init_Driver - URL fetched from property
+11:48:29.014 [main] INFO  resources.Init_Driver - Fetching user details 1

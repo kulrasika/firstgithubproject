@@ -1,0 +1,7 @@
+15:05:10.443 [TestNG] INFO  resources.Init_Driver - Closing driver
+15:05:11.130 [TestNG] INFO  resources.Init_Driver - Opening Login page
+15:05:11.490 [TestNG] INFO  resources.Init_Driver - Executing TEST : FeaturedCourseTitle
+15:05:11.490 [TestNG] INFO  resources.Init_Driver - Created landing page object
+15:05:14.540 [TestNG] INFO  resources.Init_Driver - Closing driver
+15:05:22.151 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+15:05:22.151 [TestNG] INFO  resources.Init_Driver - Executing TEST : HomePage

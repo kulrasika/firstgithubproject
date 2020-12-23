@@ -1,0 +1,6 @@
+16:26:37.532 [main] INFO  resources.Init_Driver - Entering Login details
+16:26:38.821 [main] INFO  resources.Init_Driver - Opening Login page
+16:26:38.862 [main] INFO  resources.Init_Driver - Entering Login details
+16:26:40.158 [main] INFO  resources.Init_Driver - Closing driver
+16:26:40.206 [AsyncHttpClient-3-3] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+16:26:46.187 [main] INFO  resources.Init_Driver - Driver initialised

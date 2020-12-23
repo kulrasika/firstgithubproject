@@ -1,0 +1,5 @@
+15:43:39.192 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+15:43:39.205 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\hrish\AppData\Local\Temp (java.io.tmpdir)
+15:43:39.206 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+15:43:39.208 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 947388416 bytes
+15:43:39.209 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1

@@ -1,0 +1,15 @@
+import java.sql.DriverManager;
+
+public class firstconnect {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String host = "localhost";
+		String port = 3306;
+		DriverManager.getConnection("jdbc:mqsql://"+host+":"+port+"/qadb","root","250545");
+
+		
+		jdbc:mqsql://localhost:port/qadb
+	}
+
+}

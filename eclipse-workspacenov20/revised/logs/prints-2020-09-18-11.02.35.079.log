@@ -1,0 +1,7 @@
+11:02:08.449 [main] INFO  resources.Init_Driver - Fetching user details 3
+11:02:08.514 [main] INFO  resources.Init_Driver - Executing TEST : HomePage
+11:02:08.717 [main] INFO  resources.Init_Driver - Opening Login page
+11:02:14.858 [main] INFO  resources.Init_Driver - Executing TEST : HomePage
+11:02:14.880 [main] INFO  resources.Init_Driver - Opening Login page
+11:02:24.975 [main] INFO  resources.Init_Driver - Executing TEST : HomePage
+11:02:25.001 [main] INFO  resources.Init_Driver - Opening Login page

@@ -1,0 +1,6 @@
+11:49:57.446 [main] INFO  resources.Init_Driver - Closing driver
+11:50:00.784 [main] INFO  resources.Init_Driver - Closing driver
+16:22:13.755 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+16:22:13.831 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+16:22:13.832 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+16:22:13.871 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4167d97b

@@ -1,0 +1,9 @@
+16:38:24.544 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+16:38:24.600 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+16:38:24.600 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+16:38:24.604 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+16:38:24.606 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+16:38:24.620 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+16:38:24.622 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+16:38:24.624 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+16:38:24.625 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9

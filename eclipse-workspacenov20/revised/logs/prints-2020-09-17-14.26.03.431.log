@@ -1,0 +1,7 @@
+14:24:27.440 [main] INFO  resources.Init_Driver - Opening Login page
+14:24:27.461 [main] INFO  resources.Init_Driver - Entering Login details
+14:24:28.577 [main] INFO  resources.Init_Driver - Closing driver
+14:25:31.553 [main] INFO  resources.Init_Driver - URL fetched from property
+14:25:31.563 [main] INFO  resources.Init_Driver - Executing TEST : NavigationBar
+14:25:31.934 [main] INFO  resources.Init_Driver - Closing driver
+14:26:03.251 [main] INFO  resources.Init_Driver - URL fetched from property

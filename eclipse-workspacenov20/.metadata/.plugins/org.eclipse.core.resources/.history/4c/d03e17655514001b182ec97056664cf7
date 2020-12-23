@@ -1,0 +1,115 @@
+import java.util.Scanner;
+
+public class techgig {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/* 
+		 * Enter your code here. Read input from STDIN. Print your output to STDOUT. 
+		 * Your class should be named CandidateCode.
+		*/
+
+
+		    	//Write code here     
+				int cards_with_misty;
+				int cards_from_ash;
+				int no_of_days;		        
+				
+				int testcasecount;
+				int TotalCards;
+		        Scanner input = new Scanner(System.in);
+		        
+		      System.out.println("no of test cases\n");
+		      testcasecount = Integer.parseInt(input.nextLine());
+		        
+		        //techgig t = new techgig();
+		        //t.Validate_testcasecount(testcasecount);
+		        /*int testcasecount = input.nextint();
+		        int cards_with_misty = input.nextInt();
+		        int cards_from_ash = input.nextInt();
+		        int no_of_days= input.nextInt();
+		        */
+System.out.println("Completed test case count validation");
+		        
+		        /*
+		        for(int i=0; i< testcasecount;i++)
+		        {*/
+		        
+		        System.out.println("Enter input");
+		        String inputvalue = input.nextLine();
+		        System.out.println(inputvalue);
+		        String[] inputvalues = inputvalue.split(" ");
+		        
+		       
+		        
+		        System.out.println(inputvalues[0]);
+		       System.out.println(inputvalues[1]);
+		        System.out.println(inputvalues[2]);
+		        
+		        input.close();
+		       cards_with_misty = Integer.parseInt(inputvalues[0]);
+		        
+		        t.Validate_cards_with_misty(cards_with_misty);
+		        
+		        cards_from_ash = Integer.parseInt(inputvalues[1]);
+		        
+		        t.Validate_cards_from_ash(cards_from_ash);
+		        
+		        no_of_days = Integer.parseInt(inputvalues[2]);
+		        
+		        t.Validate_no_of_days(no_of_days);
+		        
+		        TotalCards = cards_with_misty+(cards_from_ash*(no_of_days-1));
+		        
+		        System.out.println(TotalCards);
+		        
+		       
+		        
+		        /*
+		        }*/
+		        
+		      
+		        
+
+		   }
+
+	private int value;
+	
+	private void Validate_testcasecount(int value)
+    {
+	//this.value = value;
+    if ((value < 1)||(value > 100))
+    throw new IllegalArgumentException("Value is out of range");
+    }
+	
+	private void Validate_cards_with_misty(int value)
+    {
+	this.value = value;
+    if ((value < 1))
+    throw new IllegalArgumentException("Value is out of range");
+    //return value;
+    }
+	
+	private void Validate_cards_from_ash(int value)
+    {
+	this.value = value;
+    if ((value > 100000) || (value < 0))
+    throw new IllegalArgumentException("Value is out of range");
+    //return value;
+    }
+	
+	private void Validate_no_of_days(int value)
+    {
+	this.value = value;
+    if ((value < 1) || (value > 100000))
+    throw new IllegalArgumentException("Value is out of range");
+    //return value;
+    }
+	
+	
+		}
+
+

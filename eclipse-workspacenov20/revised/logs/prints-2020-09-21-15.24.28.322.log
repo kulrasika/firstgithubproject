@@ -1,0 +1,5 @@
+15:24:28.195 [TestNG] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+15:24:28.244 [TestNG] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+15:24:28.245 [TestNG] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+15:24:28.259 [TestNG] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@170db18c
+15:24:28.315 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows

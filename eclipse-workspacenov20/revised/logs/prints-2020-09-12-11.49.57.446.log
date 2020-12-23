@@ -1,0 +1,7 @@
+11:48:29.015 [main] INFO  resources.Init_Driver - Fetching user details 2
+11:48:29.021 [main] INFO  resources.Init_Driver - Fetching user details 3
+11:48:34.911 [main] INFO  resources.Init_Driver - Opening Login page
+11:48:47.108 [main] INFO  resources.Init_Driver - Entering Login details
+11:49:21.631 [main] INFO  resources.Init_Driver - Fetching qa click academy site
+11:49:41.594 [main] INFO  resources.Init_Driver - Created landing page object
+11:49:44.598 [main] INFO  resources.Init_Driver - Closing driver

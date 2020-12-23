@@ -1,0 +1,7 @@
+14:26:03.430 [main] INFO  resources.Init_Driver - Executing TEST : FeaturedCourseTitle
+14:26:03.435 [main] INFO  resources.Init_Driver - Created landing page object
+14:26:04.416 [main] INFO  resources.Init_Driver - Closing driver
+14:28:02.565 [main] INFO  resources.Init_Driver - URL fetched from property
+14:28:02.610 [main] INFO  resources.Init_Driver - Fetching user details 1
+14:28:02.610 [main] INFO  resources.Init_Driver - Fetching user details 2
+14:28:02.610 [main] INFO  resources.Init_Driver - Fetching user details 3

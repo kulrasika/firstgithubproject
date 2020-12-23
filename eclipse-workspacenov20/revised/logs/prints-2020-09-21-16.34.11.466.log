@@ -1,0 +1,5 @@
+16:34:11.447 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+16:34:11.454 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+16:34:11.460 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+16:34:11.462 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+16:34:11.464 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available

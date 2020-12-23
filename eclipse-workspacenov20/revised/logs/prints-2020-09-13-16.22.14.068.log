@@ -1,0 +1,6 @@
+16:22:13.975 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+16:22:14.053 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+16:22:14.053 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+16:22:14.063 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+16:22:14.064 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+16:22:14.066 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available

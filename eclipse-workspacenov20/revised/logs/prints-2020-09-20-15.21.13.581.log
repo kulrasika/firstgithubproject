@@ -1,0 +1,7 @@
+15:06:24.290 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+15:06:24.337 [TestNG] INFO  resources.Init_Driver - Fetching user details 2
+15:06:24.337 [TestNG] INFO  resources.Init_Driver - Fetching user details 3
+15:17:10.169 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+15:17:10.186 [TestNG] INFO  resources.Init_Driver - Fetching user details 2
+15:17:10.186 [TestNG] INFO  resources.Init_Driver - Fetching user details 3
+15:21:13.548 [TestNG] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework

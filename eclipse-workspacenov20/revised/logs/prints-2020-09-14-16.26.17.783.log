@@ -1,0 +1,5 @@
+16:26:17.755 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+16:26:17.776 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+16:26:17.778 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+16:26:17.780 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+16:26:17.782 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true

@@ -1,0 +1,10 @@
+16:39:48.686 [main] INFO  resources.Init_Driver - Driver initialised
+16:40:01.538 [main] INFO  resources.Init_Driver - URL fetched from property
+16:40:02.403 [main] INFO  resources.Init_Driver - Created landing page object
+16:40:03.008 [main] INFO  resources.Init_Driver - Closing driver
+16:47:39.492 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+16:47:39.544 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+16:47:39.551 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+16:47:39.580 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4167d97b
+16:47:39.877 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+16:47:39.892 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false

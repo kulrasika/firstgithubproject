@@ -1,0 +1,23 @@
+
+public class scannerDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age;
+		String name;
+		char gender;
+		
+		 System.out.println("Name:");
+	        testcasecount = input.nextInt();
+	        
+	        System.out.println("Age");
+	        testcasecount = input.nextInt();
+	        
+	        System.out.println("Gender");
+	        testcasecount = input.nextInt();
+	        
+	        System.out.println(name + "\n"+Age+"\n"+gender);
+	}
+
+}

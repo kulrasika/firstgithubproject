@@ -1,0 +1,7 @@
+15:14:36.340 [main] INFO  resources.Init_Driver - Closing driver
+15:16:53.177 [main] INFO  resources.Init_Driver - Driver initialised
+15:17:05.549 [main] INFO  resources.Init_Driver - URL fetched from property
+15:17:05.574 [main] INFO  resources.Init_Driver - Fetching user details 1
+15:17:05.575 [main] INFO  resources.Init_Driver - Fetching user details 2
+15:17:05.575 [main] INFO  resources.Init_Driver - Fetching user details 3
+15:17:21.475 [main] INFO  resources.Init_Driver - Closing driver

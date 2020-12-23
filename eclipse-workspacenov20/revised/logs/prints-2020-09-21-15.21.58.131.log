@@ -1,0 +1,6 @@
+15:08:45.172 [TestNG] INFO  resources.Init_Driver - Opening Login page
+15:08:55.004 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+15:08:55.004 [TestNG] INFO  resources.Init_Driver - Executing TEST : HomePage
+15:08:55.138 [TestNG] INFO  resources.Init_Driver - Opening Login page
+15:08:58.920 [TestNG] INFO  resources.Init_Driver - Closing driver
+15:08:58.951 [AsyncHttpClient-3-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

@@ -1,0 +1,7 @@
+16:13:26.759 [main] INFO  resources.Init_Driver - Fetching user details 1
+16:13:26.778 [main] INFO  resources.Init_Driver - Fetching user details 2
+16:13:26.779 [main] INFO  resources.Init_Driver - Fetching user details 3
+16:13:27.098 [main] INFO  resources.Init_Driver - Opening Login page
+16:13:29.241 [main] INFO  resources.Init_Driver - Entering Login details
+16:13:50.765 [main] INFO  resources.Init_Driver - Closing driver
+16:24:13.729 [main] INFO  resources.Init_Driver - Driver initialised

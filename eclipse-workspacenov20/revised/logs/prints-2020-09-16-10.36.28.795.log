@@ -1,0 +1,7 @@
+10:36:22.175 [TestNG] INFO  resources.Init_Driver - Created landing page object
+10:36:24.371 [TestNG] INFO  resources.Init_Driver - Closing driver
+10:36:24.689 [TestNG] INFO  resources.Init_Driver - Closing driver
+10:36:25.992 [TestNG] INFO  resources.Init_Driver - Entering Login details
+10:36:27.467 [TestNG] INFO  resources.Init_Driver - Executing TEST : HomePage
+10:36:27.505 [TestNG] INFO  resources.Init_Driver - Opening Login page
+10:36:27.535 [TestNG] INFO  resources.Init_Driver - Entering Login details

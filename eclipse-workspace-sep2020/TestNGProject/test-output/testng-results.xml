@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="19" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="574" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="component3.C3Step1()[pri:0, instance:TestPackage.component3@5ae63ade]" name="C3Step1" class="TestPackage.component3"/>
+        <method signature="component3.C3Step3()[pri:0, instance:TestPackage.component3@5ae63ade]" name="C3Step3" class="TestPackage.component3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Other" duration-ms="265" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+      <class name="TestPackage.TwoTC">
+        <test-method status="PASS" signature="FirstClass()[pri:0, instance:TestPackage.TwoTC@614ddd49]" name="FirstClass" duration-ms="10" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstClass -->
+        <test-method status="PASS" signature="SecondClass(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.TwoTC@614ddd49]" name="SecondClass" duration-ms="5" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Others.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondClass -->
+      </class> <!-- TestPackage.TwoTC -->
+      <class name="TestPackage.FirstTestNG">
+        <test-method status="PASS" signature="methodone()[pri:0, instance:TestPackage.FirstTestNG@76707e36]" name="methodone" duration-ms="17" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodone -->
+      </class> <!-- TestPackage.FirstTestNG -->
+      <class name="TestPackage.component3">
+        <test-method status="PASS" signature="FirstinSuite()[pri:0, instance:TestPackage.component3@5ae63ade]" name="FirstinSuite" is-config="true" duration-ms="30" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstinSuite -->
+        <test-method status="PASS" signature="LastinSuite()[pri:0, instance:TestPackage.component3@5ae63ade]" name="LastinSuite" is-config="true" duration-ms="9" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastinSuite -->
+      </class> <!-- TestPackage.component3 -->
+      <class name="TestPackage.ThirdTest">
+        <test-method status="PASS" signature="BackEndCSM()[pri:0, instance:TestPackage.ThirdTest@1f554b06]" name="BackEndCSM" duration-ms="4" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackEndCSM -->
+        <test-method status="PASS" signature="BackEndMambo()[pri:0, instance:TestPackage.ThirdTest@1f554b06]" name="BackEndMambo" duration-ms="2" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackEndMambo -->
+        <test-method status="PASS" signature="FrontEndCSM()[pri:0, instance:TestPackage.ThirdTest@1f554b06]" name="FrontEndCSM" duration-ms="3" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrontEndCSM -->
+        <test-method status="PASS" signature="FrontEndMambo()[pri:0, instance:TestPackage.ThirdTest@1f554b06]" name="FrontEndMambo" duration-ms="2" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrontEndMambo -->
+        <test-method status="PASS" signature="FrontEndSelfCare()[pri:0, instance:TestPackage.ThirdTest@1f554b06]" name="FrontEndSelfCare" duration-ms="3" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrontEndSelfCare -->
+      </class> <!-- TestPackage.ThirdTest -->
+    </test> <!-- Other -->
+    <test name="TestComponent" duration-ms="574" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+      <class name="TestPackage.component3">
+        <test-method status="PASS" signature="BeforeComponent3()[pri:0, instance:TestPackage.component3@5ae63ade]" name="BeforeComponent3" is-config="true" duration-ms="0" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeComponent3 -->
+        <test-method status="PASS" signature="BeforeEveryClass()[pri:0, instance:TestPackage.component3@5ae63ade]" name="BeforeEveryClass" is-config="true" duration-ms="1" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryClass -->
+        <test-method status="PASS" signature="BeforeeveryTest()[pri:0, instance:TestPackage.component3@5ae63ade]" name="BeforeeveryTest" is-config="true" duration-ms="2" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeeveryTest -->
+        <test-method status="PASS" signature="C3Step1()[pri:0, instance:TestPackage.component3@5ae63ade]" name="C3Step1" duration-ms="4" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C3Step1 -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:TestPackage.component3@5ae63ade]" name="AfterEveryMethod" is-config="true" duration-ms="0" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeeveryTest()[pri:0, instance:TestPackage.component3@5ae63ade]" name="BeforeeveryTest" is-config="true" duration-ms="1" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeeveryTest -->
+        <test-method status="PASS" signature="C3Step2()[pri:0, instance:TestPackage.component3@5ae63ade]" name="C3Step2" duration-ms="2" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C3Step2 -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:TestPackage.component3@5ae63ade]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeeveryTest()[pri:0, instance:TestPackage.component3@5ae63ade]" name="BeforeeveryTest" is-config="true" duration-ms="1" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeeveryTest -->
+        <test-method status="PASS" signature="C3Step3()[pri:0, instance:TestPackage.component3@5ae63ade]" name="C3Step3" duration-ms="3" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C3Step3 -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:TestPackage.component3@5ae63ade]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="AfterEveryClass()[pri:0, instance:TestPackage.component3@5ae63ade]" name="AfterEveryClass" is-config="true" duration-ms="1" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryClass -->
+        <test-method status="PASS" signature="AfterComponent3()[pri:0, instance:TestPackage.component3@5ae63ade]" name="AfterComponent3" is-config="true" duration-ms="1" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterComponent3 -->
+      </class> <!-- TestPackage.component3 -->
+      <class name="TestPackage.component2">
+        <test-method status="PASS" signature="BeforeComponent2()[pri:0, instance:TestPackage.component2@610694f1]" name="BeforeComponent2" is-config="true" duration-ms="2" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeComponent2 -->
+        <test-method status="PASS" signature="C2Step2()[pri:0, instance:TestPackage.component2@610694f1]" name="C2Step2" duration-ms="32" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C2Step2 -->
+        <test-method status="PASS" signature="C2Step3(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.component2@610694f1]" name="C2Step3" duration-ms="14" started-at="2020-07-22T10:30:10 IST" data-provider="getData" finished-at="2020-07-22T10:30:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C2Step3 -->
+        <test-method status="PASS" signature="C2Step3(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.component2@610694f1]" name="C2Step3" duration-ms="2" started-at="2020-07-22T10:30:10 IST" data-provider="getData" finished-at="2020-07-22T10:30:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C2Step3 -->
+        <test-method status="PASS" signature="C2Step3(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.component2@610694f1]" name="C2Step3" duration-ms="21" started-at="2020-07-22T10:30:10 IST" data-provider="getData" finished-at="2020-07-22T10:30:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C2Step3 -->
+        <test-method status="PASS" signature="AfterComponent2()[pri:0, instance:TestPackage.component2@610694f1]" name="AfterComponent2" is-config="true" duration-ms="0" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterComponent2 -->
+      </class> <!-- TestPackage.component2 -->
+      <class name="TestPackage.component1">
+        <test-method status="PASS" signature="BeforeComponent1()[pri:0, instance:TestPackage.component1@43814d18]" name="BeforeComponent1" is-config="true" duration-ms="0" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeComponent1 -->
+        <test-method status="PASS" signature="C1Step1(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.component1@43814d18]" name="C1Step1" duration-ms="19" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QAClickAcademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C1Step1 -->
+        <test-method status="FAIL" signature="C1Step2()[pri:0, instance:TestPackage.component1@43814d18]" name="C1Step2" duration-ms="118" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at TestPackage.component1.C1Step2(component1.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:75)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:13)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C1Step2 -->
+        <test-method status="PASS" signature="C1Step3()[pri:0, instance:TestPackage.component1@43814d18]" name="C1Step3" duration-ms="4" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C1Step3 -->
+        <test-method status="PASS" signature="AfterComponent1()[pri:0, instance:TestPackage.component1@43814d18]" name="AfterComponent1" is-config="true" duration-ms="0" started-at="2020-07-22T10:30:10 IST" finished-at="2020-07-22T10:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterComponent1 -->
+      </class> <!-- TestPackage.component1 -->
+    </test> <!-- TestComponent -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+14:13:33.265 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+14:13:33.615 [TestNG] INFO  resources.Init_Driver - Fetching user details 2
+14:13:33.615 [TestNG] INFO  resources.Init_Driver - Fetching user details 3
+14:15:54.926 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+14:15:54.933 [TestNG] INFO  resources.Init_Driver - URL fetched from property
+14:15:55.298 [TestNG] INFO  resources.Init_Driver - Fetching user details 1
+14:15:55.298 [TestNG] INFO  resources.Init_Driver - Fetching user details 2

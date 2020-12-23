@@ -1,0 +1,5 @@
+16:26:17.538 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+16:26:17.626 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2049a9c1
+16:26:17.740 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+16:26:17.749 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+16:26:17.750 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="Framework.revised.Listener"/>
+  </listeners>
+  <test name="Featured Course(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="Framework.revised.NavigationBar">
+        <methods>
+          <include name="Shutdown"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- Framework.revised.NavigationBar -->
+      <class name="Framework.revised.HomePage">
+        <methods>
+          <include name="StartDriver"/>
+          <include name="Shutdown"/>
+        </methods>
+      </class> <!-- Framework.revised.HomePage -->
+      <class name="Framework.revised.FeaturedCourseTitle">
+        <methods>
+          <include name="StartDriver"/>
+          <include name="Shutdown"/>
+          <include name="freaturedcoursetitle"/>
+        </methods>
+      </class> <!-- Framework.revised.FeaturedCourseTitle -->
+    </classes>
+  </test> <!-- Featured Course(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,40 @@
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Windows {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();		
+		
+		
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		
+		Set<String> handles =	driver.getWindowHandles();	
+		Iterator<String> its = handles.iterator();
+
+		String parent = its.next();
+			
+		String child = its.next();
+			//div[text(@class,'nav-sprite hmenu-close-icon')]
+
+		driver.switchTo().window(child);
+
+		WebDriverWait wait = new WebDriverWait(driver,5);
+
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//span[@class= 'a-size-base-plus a-color-base a-text-normal']"))));
+
+
+		driver.findElement(By.xpath("//span[@class= 'a-size-base-plus a-color-base a-text-normal']")).click();
+
+
+	}
+
+}

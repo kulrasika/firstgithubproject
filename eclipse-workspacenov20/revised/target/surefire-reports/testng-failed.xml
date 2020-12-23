@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Framework.revised.Listener"/>
+  </listeners>
+  <test name="Featured Course(failed)" parallel="tests">
+    <classes>
+      <class name="Framework.revised.NavigationBar">
+        <methods>
+          <include name="Shutdown"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- Framework.revised.NavigationBar -->
+      <class name="Framework.revised.FeaturedCourseTitle">
+        <methods>
+          <include name="StartDriver"/>
+          <include name="Shutdown"/>
+          <include name="freaturedcoursetitle"/>
+        </methods>
+      </class> <!-- Framework.revised.FeaturedCourseTitle -->
+      <class name="Framework.revised.HomePage">
+        <methods>
+          <include name="StartDriver"/>
+          <include name="Shutdown"/>
+        </methods>
+      </class> <!-- Framework.revised.HomePage -->
+    </classes>
+  </test> <!-- Featured Course(failed) -->
+  <test name="Login(failed)" parallel="tests">
+    <classes>
+      <class name="Framework.revised.NavigationBar">
+        <methods>
+          <include name="Shutdown"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- Framework.revised.NavigationBar -->
+      <class name="Framework.revised.HomePage">
+        <methods>
+          <include name="StartDriver"/>
+          <include name="basepagenavigation" invocation-numbers="0"/>
+          <include name="Shutdown"/>
+        </methods>
+      </class> <!-- Framework.revised.HomePage -->
+      <class name="Framework.revised.FeaturedCourseTitle">
+        <methods>
+          <include name="StartDriver"/>
+          <include name="Shutdown"/>
+        </methods>
+      </class> <!-- Framework.revised.FeaturedCourseTitle -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,7 @@
+14:16:13.984 [TestNG] INFO  resources.Init_Driver - Opening Login page
+14:16:14.110 [TestNG] INFO  resources.Init_Driver - Entering Login details
+14:16:14.934 [TestNG] INFO  resources.Init_Driver - Closing driver
+14:24:09.270 [main] INFO  resources.Init_Driver - URL fetched from property
+14:24:09.355 [main] INFO  resources.Init_Driver - Fetching user details 1
+14:24:09.356 [main] INFO  resources.Init_Driver - Fetching user details 2
+14:24:09.356 [main] INFO  resources.Init_Driver - Fetching user details 3

@@ -1,0 +1,12 @@
+16:47:56.978 [main] INFO  resources.Init_Driver - Opening Login page
+16:47:59.716 [main] INFO  resources.Init_Driver - Entering Login details
+16:48:01.379 [main] INFO  resources.Init_Driver - Executing TEST : HomePage
+16:48:01.427 [main] INFO  resources.Init_Driver - Opening Login page
+16:48:01.458 [main] INFO  resources.Init_Driver - Entering Login details
+16:48:02.990 [main] INFO  resources.Init_Driver - Executing TEST : HomePage
+16:48:03.033 [main] INFO  resources.Init_Driver - Opening Login page
+16:48:03.058 [main] INFO  resources.Init_Driver - Entering Login details
+16:48:04.609 [main] INFO  resources.Init_Driver - Closing driver
+16:48:04.620 [AsyncHttpClient-3-3] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+16:48:17.998 [main] INFO  resources.Init_Driver - URL fetched from property
+16:48:18.000 [main] INFO  resources.Init_Driver - Executing TEST : NavigationBar

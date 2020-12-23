@@ -1,0 +1,5 @@
+10:43:44.195 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+10:43:44.202 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 947388416 bytes
+10:43:44.202 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+10:43:44.206 [TestNG] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+10:43:44.206 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false

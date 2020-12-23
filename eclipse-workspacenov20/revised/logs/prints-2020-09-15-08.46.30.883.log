@@ -1,0 +1,6 @@
+16:48:18.655 [main] INFO  resources.Init_Driver - Closing driver
+16:48:33.498 [main] INFO  resources.Init_Driver - URL fetched from property
+16:48:33.789 [main] INFO  resources.Init_Driver - Executing TEST : FeaturedCourseTitle
+16:48:33.789 [main] INFO  resources.Init_Driver - Created landing page object
+16:48:33.948 [main] INFO  resources.Init_Driver - Closing driver
+08:46:30.803 [TestNG] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework

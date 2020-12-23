@@ -1,0 +1,5 @@
+08:46:30.868 [TestNG] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+08:46:30.904 [TestNG] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+08:46:30.930 [TestNG] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4532a546
+08:46:31.000 [TestNG] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+08:46:31.006 [TestNG] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false

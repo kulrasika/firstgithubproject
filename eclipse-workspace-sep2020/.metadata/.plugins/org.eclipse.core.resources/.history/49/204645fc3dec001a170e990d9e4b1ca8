@@ -1,0 +1,44 @@
+package Framework.First;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.Landingpage;
+import pageObjects.LoginPage;
+import resources.Init_Driver;
+
+public class FeaturedCourseTitle extends Init_Driver {
+	
+	@BeforeTest
+	public void StartDriver() throws Throwable
+	{
+		
+		driver = InitialiseDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	
+	public void freaturedcoursetitle() throws Throwable
+	{
+		
+		driver = InitialiseDriver();
+		driver.get("http://www.qaclickacademy.com/");
+		
+		Landingpage l = new Landingpage(driver);
+		
+        Assert.assertEquals(l.Featuredcoursetitle().getText(), "FEATURED COURSES", "Fail");
+        
+		
+	}
+	@AfterTest
+	public void Shutdown()
+	{
+		driver.close();
+	}
+
+	
+}

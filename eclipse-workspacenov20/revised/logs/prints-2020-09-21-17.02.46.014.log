@@ -1,0 +1,7 @@
+17:01:02.404 [main] INFO  resources.Init_Driver - Validatin if header is as expected
+17:01:02.726 [main] INFO  resources.Init_Driver - Executing TEST : FeaturedCourseTitle
+17:01:02.726 [main] INFO  resources.Init_Driver - Created landing page object
+17:01:02.856 [main] INFO  resources.Init_Driver - Closing driver
+17:02:45.219 [main] INFO  resources.Init_Driver - URL fetched from property
+17:02:45.313 [main] INFO  resources.Init_Driver - Executing TEST : FeaturedCourseHeader
+17:02:45.313 [main] INFO  resources.Init_Driver - Validatin if header is as expected

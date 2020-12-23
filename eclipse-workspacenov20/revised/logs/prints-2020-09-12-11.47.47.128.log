@@ -1,0 +1,8 @@
+11:46:39.820 [main] INFO  resources.Init_Driver - Driver initialised
+11:46:39.820 [main] INFO  resources.Init_Driver - Driver initialised
+11:46:48.277 [main] INFO  resources.Init_Driver - URL fetched from property
+11:46:48.478 [main] INFO  resources.Init_Driver - Created landing page object
+11:46:49.151 [main] INFO  resources.Init_Driver - Closing driver
+11:46:50.383 [main] INFO  resources.Init_Driver - URL fetched from property
+11:46:50.442 [main] INFO  resources.Init_Driver - Created landing page object
+11:46:50.522 [main] INFO  resources.Init_Driver - Closing driver

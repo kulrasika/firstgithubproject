@@ -1,0 +1,7 @@
+10:39:21.052 [TestNG] INFO  resources.Init_Driver - Closing driver
+10:39:21.984 [TestNG] INFO  resources.Init_Driver - Opening Login page
+10:39:22.046 [TestNG] INFO  resources.Init_Driver - Closing driver
+10:39:25.538 [TestNG] INFO  resources.Init_Driver - Entering Login details
+10:39:26.449 [TestNG] INFO  resources.Init_Driver - Executing TEST : HomePage
+10:39:26.491 [TestNG] INFO  resources.Init_Driver - Opening Login page
+10:39:26.509 [TestNG] INFO  resources.Init_Driver - Entering Login details

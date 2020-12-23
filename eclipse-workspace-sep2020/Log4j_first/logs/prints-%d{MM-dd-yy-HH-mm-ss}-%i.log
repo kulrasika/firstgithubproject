@@ -1,0 +1,4 @@
+2020-08-09 16:10:06,482 ERROR a.First [main] Error message now printing
+2020-08-09 16:10:06,499 FATAL a.First [main] Fatal error
+2020-08-09 16:15:15,593 ERROR a.First [main] Error message now printing
+2020-08-09 16:15:15,615 FATAL a.First [main] Fatal error
