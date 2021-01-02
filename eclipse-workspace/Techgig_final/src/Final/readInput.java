@@ -6,6 +6,7 @@ public class readInput {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// I added comment from Y Guy
 		
 		Scanner input = new Scanner(System.in);
 		
