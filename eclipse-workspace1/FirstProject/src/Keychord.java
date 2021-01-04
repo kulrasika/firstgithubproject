@@ -12,6 +12,8 @@ System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.ex
 		driver.get("https://www.amazon.in/");
 		
 		//Adding some comments for GitHub
+
+// Adding some comments again rom GitHubNewMember
 		String enter = Keys.chord(Keys.SHIFT,"Hello");
 		
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys(enter);
